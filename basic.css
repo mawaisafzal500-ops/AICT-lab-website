@@ -25,6 +25,10 @@ body {
   display: flex;
   align-items: center;
   gap: 54px;
+  a{
+    text-decoration: none;
+    color: var(--primary-color);
+  }
 }
 .nav-opt {
   display: flex;
@@ -38,7 +42,7 @@ body {
 background-color: #87e64d;
 border-radius: 32px;
 padding-block: 1px;
-outline: 2px solid black;
+outline: 1px solid black;
   }
 }
 .nav-icon {
@@ -76,9 +80,13 @@ outline: 2px solid black;
     justify-content: center;
     align-items: center;
     gap: 20px;
-    
+    svg{
+      &:hover{
+        color: #87e64d;
+      }
+    }
+   }
   }
-}
 .main-heading {
   text-align: center;
   margin-top: 20px;

@@ -271,7 +271,7 @@ svg{
 
 
 .float-icon {
-  animation: floatUpDown 5s ease-in-out infinite;
+  animation: floatUpDown 4s ease-in-out infinite;
 
 }
 
@@ -403,6 +403,11 @@ svg{
   svg {
     width: var(--user-rev-svg-width);
     height: var(--user-rev-svg-height);
+  }
+  img{
+     width: var(--user-rev-svg-width);
+    height: var(--user-rev-svg-height);
+    border-radius: 32px;
   }
   button {
     background-color: #1f1f1f;

@@ -111,7 +111,7 @@ body {
   position: sticky;
   top: 0%;
   background-color: #ffffff;
-  padding: 15px 100px;
+  padding: 15px 120px;
   gap: var(--nav-gap);
   margin-bottom: var(--margin-nav-bottom);
   flex-wrap: nowrap;
@@ -1248,9 +1248,9 @@ h4 {
 }
 
 /* Mobile Responsive Styles */
-@media (max-width: 1024px) {
+@media (max-width: 1370px) {
   .navbar {
-    padding: 15px 40px;
+    padding: 15px 60px;
     gap: 0px;
     flex-wrap: wrap;
   }

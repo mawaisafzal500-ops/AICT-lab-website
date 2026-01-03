@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Our Project</title>
+    <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Albert Sans', sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+
+        section {
+            padding: 60px 20px;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            color: #0d1b2a;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #00796b, #004d40);
+            color: #fff;
+            text-align: center;
+            padding: 120px 20px;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #0000004c;
+        }
+
+        /* Project Overview */
+        .project-overview {
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        /* Team Section */
+        .team {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .team-member {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .team-member:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: #00796b;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+            font-weight: bold;
+            margin: 0 auto 15px;
+        }
+
+        .team-member h4 {
+            margin-bottom: 5px;
+        }
+
+        .team-member p {
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .below {
+            width: 400px;
+        }
+
+        /* Project Highlights Section */
+        .highlights {
+            background-color: #e0f7fa;
+            text-align: center;
+        }
+
+        .highlights-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .highlight-card {
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            width: 250px;
+            transition: transform 0.3s ease;
+        }
+
+        .highlight-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .highlight-card h3 {
+            margin-bottom: 10px;
+            color: #00796b;
+        }
+
+        /* Footer */
+        footer {
+            background: #0d1b2a;
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        /* Responsive */
+        @media(max-width:768px) {
+            .hero h1 {
+                font-size: 2.2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .highlights-grid {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>About Our Project</h1>
+        <p>A university project replicating an online tech resale platform</p>
+    </section>
+
+    <!-- Project Overview -->
+    <section class="project-overview">
+        <h2>Project Overview</h2>
+        <p>This project is a fully HTML and CSS website where users can sell their tech products safely and quickly.</p>
+        <p>We chose this project to practice web development, understand e-commerce layout, and implement a responsive
+            user interface using only HTML and CSS.</p>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team">
+        <h2>Our Team</h2>
+        <div class="team-grid">
+            <div class="team-member">
+                <div class="avatar">MM</div>
+                <h4>Muhammad Moaz Manzoor</h4>
+                <p>Video Editor</p>
+            </div>
+            <div class="team-member">
+                <div class="avatar">MA</div>
+                <h4>Muhammad Awais Afzal</h4>
+                <p>Front-End Developer/Team lead</p>
+            </div>
+            <div class="team-member">
+                <div class="avatar">AS</div>
+                <h4>Abdullah Shahbaz</h4>
+                <p>PowerPoint</p>
+            </div>
+        </div>
+        <div class="flex">
+            <div class="team-member below">
+                <div class="avatar">MS</div>
+                <h4>Mohid Sadiq</h4>
+                <p>MS word/Excel</p>
+            </div>
+            <div class="team-member below">
+
+                <div class="avatar">N</div>
+                <h4>Noor-ul-ain</h4>
+                <p>MS word/Excel</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Highlights Section -->
+    <section class="highlights">
+        <h2>Project Highlights</h2>
+        <div class="highlights-grid">
+            <div class="highlight-card">
+                <h3>HTML & CSS Only</h3>
+                <p>The project is built entirely with HTML and CSS, showcasing layout and design skills.</p>
+            </div>
+            <div class="highlight-card">
+                <h3>Responsive Design</h3>
+                <p>The website adapts to different screen sizes and devices for a better user experience.</p>
+            </div>
+            <div class="highlight-card">
+                <h3>Tech Resale Concept</h3>
+                <p>Our project replicates a tech resale platform where users can sell products online.</p>
+            </div>
+            <div class="highlight-card">
+                <h3>Professional Layout</h3>
+                <p>The design mimics modern e-commerce platforms with clear sections and clean styling.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 University Project. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>

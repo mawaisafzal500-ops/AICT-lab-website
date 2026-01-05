@@ -51,7 +51,7 @@ body {
   --size-12: calc(12 * (var(--spacer)));
 
   --padding: 135px;
-  --nav-gap: 204px;
+  --nav-gap: 0px;
   --gap-midinfo: 20px;
   --mid-input-width: 857px;
   --mid-input-height: 67px;

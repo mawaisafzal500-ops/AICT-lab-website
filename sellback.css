@@ -116,6 +116,7 @@ body {
   margin-bottom: var(--margin-nav-bottom);
   flex-wrap: nowrap;
   cursor: pointer;
+  z-index: 10;
 
 }
 
@@ -147,6 +148,7 @@ body {
   padding: 16px 20px;
   flex-wrap: nowrap;
   white-space: nowrap;
+
 
   &&:hover {
     --border-radius-nav-opt: 32px;
@@ -260,7 +262,7 @@ body {
   flex-direction: column;
   justify-content: center;
   gap: var(--gap-midinfo);
-  background-color: #47ad47;
+  background-color: #ffffff;
 
   h1 {
     --font-size-head-midinfo: 56px;
@@ -871,6 +873,7 @@ body {
 .question p {
   --color-text-questions: #8e8e8e;
   max-width: 654px;
+  
   color: var(--color-text-questions);
 }
 
@@ -890,7 +893,7 @@ body {
 .ask-bx details {
   background-color: var(--background-details);
   border-radius: var(--size-10);
-  overflow: hidden;
+
   /* keeps content inside */
   transition: background-color 0.6s ease;
 
@@ -905,11 +908,7 @@ body {
 
   padding: var(--padding-ask-bx);
   cursor: pointer;
-  list-style: none;
-}
 
-.ask-bx summary::-webkit-details-marker {
-  display: none;
 }
 
 .ask-bx summary p {
@@ -935,7 +934,7 @@ body {
 
 .ask-bx summary svg path {
   --color-svg-ask-bx: #8e8e8e;
-  fill: var(--color-svg-ask-bx);
+  color: var(--color-svg-ask-bx);
 }
 
 .ask-bx details>p {
@@ -973,6 +972,7 @@ body {
 
 .ask-bx details[open] summary svg {
   transform: rotate(180deg);
+  
   background-color: var(--background-color);
 }
 
@@ -1245,4 +1245,4 @@ footer {
 
 h4 {
   padding: 0px;
-}
+}       

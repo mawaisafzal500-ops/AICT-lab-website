@@ -1398,6 +1398,7 @@ h4 {
   }
 
   .search-icn {
+    display: none;
     width: 36px;
     height: 36px;
     padding: 6px;

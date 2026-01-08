@@ -1294,7 +1294,7 @@ h4 {
     overflow-x: hidden;
   }
 
-  /* Navbar */
+ 
   .nav-center,
   .nav-icon {
     display: none;
@@ -1308,7 +1308,7 @@ h4 {
     padding: 12px 20px;
   }
 
-  /* Hero / Mid section */
+
   .mid-info h1 {
     font-size: 32px;
   }
@@ -1322,7 +1322,6 @@ h4 {
     top: 50%;
   }
 
-  /* Dual boxes */
   .dual-boxes {
     padding-inline: 20px;
   }
@@ -1332,7 +1331,7 @@ h4 {
     max-width: 100%;
   }
 
-  /* Categories */
+
   .category_bx {
     margin: 40px 20px;
     grid-template-areas:
@@ -1352,18 +1351,18 @@ h4 {
     height: auto;
   }
 
-  /* Reviews */
+ 
   .review-imgs {
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  /* Questions */
+
   .ask-bx {
     margin: 0 20px;
   }
 
-  /* Feedback */
+
   .feedback-bx h1 {
     font-size: 32px;
   }
@@ -1374,7 +1373,7 @@ h4 {
     width: 100%;
   }
 
-  /* Footer */
+
   .last-bx {
     flex-direction: column;
     gap: 40px;

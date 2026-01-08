@@ -1245,4 +1245,171 @@ footer {
 
 h4 {
   padding: 0px;
-}       
+} 
+@media (max-width: 1024px) {
+
+  :root {
+    --padding: 40px;
+    --nav-gap: 40px;
+    --mid-input-width: 100%;
+  }
+
+  .navbar {
+    padding: 15px 40px;
+    gap: 40px;
+  }
+
+  .main-box {
+    padding: 0 40px;
+    grid-template-columns: 1fr;
+  }
+
+  .dual-boxes {
+    padding-inline: 40px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-bx {
+    flex-direction: column;
+    margin: 40px;
+  }
+
+  .about-sec h1 {
+    margin-inline: 40px;
+  }
+
+  .ask-bx summary {
+    width: 100%;
+  }
+
+  .feedback-bx button,
+  .feedback-info input {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  /* Navbar */
+  .nav-center,
+  .nav-icon {
+    display: none;
+  }
+
+  .mobile-show {
+    display: block;
+  }
+
+  .navbar {
+    padding: 12px 20px;
+  }
+
+  /* Hero / Mid section */
+  .mid-info h1 {
+    font-size: 32px;
+  }
+
+  .mid-input {
+    width: 100%;
+    height: 52px;
+  }
+
+  .search-icn {
+    top: 50%;
+  }
+
+  /* Dual boxes */
+  .dual-boxes {
+    padding-inline: 20px;
+  }
+
+  .left-ibox,
+  .right-ibox {
+    max-width: 100%;
+  }
+
+  /* Categories */
+  .category_bx {
+    margin: 40px 20px;
+    grid-template-areas:
+      "mobile"
+      "watch"
+      "laptop"
+      "ipad"
+      "console";
+  }
+
+  .watch-cat,
+  .mobile-cat,
+  .laptop-cat,
+  .ipad-cat,
+  .console-cat {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Reviews */
+  .review-imgs {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  /* Questions */
+  .ask-bx {
+    margin: 0 20px;
+  }
+
+  /* Feedback */
+  .feedback-bx h1 {
+    font-size: 32px;
+  }
+
+  .feedback-info input,
+  .feedback-info textarea,
+  .feedback-bx button {
+    width: 100%;
+  }
+
+  /* Footer */
+  .last-bx {
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 20px;
+  }
+
+  .last-itm {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+}
+@media (max-width: 480px) {
+
+  .mid-info h1 {
+    font-size: 26px;
+  }
+
+  .btn-see {
+    width: 100%;
+  }
+
+  .search-icn {
+    width: 36px;
+    height: 36px;
+    padding: 6px;
+  }
+
+  .user_reviews-bx svg,
+  .user_reviews-bx img {
+    width: 180px;
+    height: auto;
+  }
+
+  footer .short-line {
+    width: 100%;
+  }
+}
